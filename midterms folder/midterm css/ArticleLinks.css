@@ -1,0 +1,23 @@
+a {
+    color:black;
+    text-decoration: underline;
+}
+
+
+a:visited {
+    color:blue;
+    text-decoration: line-through;
+}
+
+
+a:active {
+    color: green;
+    text-decoration: overline;
+}
+
+
+a:hover {
+    color:red;
+    text-decoration: blink;
+}
+

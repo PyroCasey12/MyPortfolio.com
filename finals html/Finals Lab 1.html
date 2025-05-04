@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script type="text/javascript" src = "finals js/exercise1.js">
+
+    </script>
+
+    </style>
+   
+</head>
+<style>
+    .calcu{text-align: center;}
+    .border{border:3px solid black;padding: 20px;max-width: 350px; margin: 20px; border-radius: 8px;}
+    .num1{font-size: 18px; padding: 8px; width: 100%; box-sizing: border-box;}
+    .num2{font-size: 18px; padding: 8px; width: 100%; box-sizing: border-box;}
+    .operation{font-size: 20px; padding: 10px 20px; margin: 5px;}
+    .result{font-weight: bold; border: 2px solid black; padding: 15px; border-radius: 6px; font-size: 22px; min-height: 40px; margin-top: 10px;}
+</style>
+<body>
+
+    <div class="border">
+        <H2 class="calcu">Calculator</H2>
+        <div id="content"></div>
+        <br><br><br>
+        <input class="num1" type="text" id="num1" placeholder="ENTER A NUMBER"><br><br>
+
+        <input class="num2" type="text" id="num2" placeholder="ENTER A NUMBER"><br><br>
+
+        <div style="margin-top: 10px; text-align: center;">
+            <button class="operation" onclick="calculate('add')">+</button>
+            <button class="operation" onclick="calculate('subtract')">-</button>
+            <button class="operation" onclick="calculate('multiply')">*</button>
+            <button class="operation" onclick="calculate('divide')" >/</button>
+        </div>
+
+        <br>
+
+        
+        <div class="result" id="result"></div>
+
+    </div>
+
+</body>
+</html>

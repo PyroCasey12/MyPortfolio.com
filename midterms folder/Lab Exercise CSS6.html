@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExerciseCSS6</title>
+    <link rel="stylesheet" href="ArticleLinks.css">
+    <style>
+        body {
+            background-color: aliceblue;
+            font-family: Arial, sans-serif;
+            background-image: url("midterms picture/LeCourt.jpg");   
+           background-size: 100%;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            width: 30%;
+            padding: 15px;
+            margin: 10px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        #column1 {
+            border: 4px dashed #ff6347;
+            background-color: #ffe4e1; 
+        }
+        #column2 {
+            border: 3px solid #4682b4; 
+            background-color: #e0ffff; 
+            border-radius: 15px; 
+        }
+        #column3 {
+            border: 5px double #32cd32; 
+            background-color: #f0fff0; 
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+        #References { text-align: center;}
+        hr {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>SPORTS NEWS</h1>
+    <h2>Latest Updates</h2>
+    <h3><a href="mailto:20227544@s.ubvaguio.edu">Pyro Casey Jhendrei C. Lipang</a></h3>
+    
+    <hr>
+
+    <div class="box">
+        <div class="column" id="column1">
+            <h2>Lakers Trade</h2>
+            <div>
+                The <a href="https://x.com/ShamsCharania/status/1885919297832169918" target="_blank">Los Angeles Lakers are trading All-Star big man Anthony Davis</a>,
+                Max Christie, and a 2029 first-round pick to the <a href="https://www.mavs.com/ad-adds-defense/" target="_blank">Dallas Mavericks</a> in exchange for 
+                superstar <a href="https://clutchpoints.com/nba/players/b74d0a0c/luka-doncic" target="_blank">Luka Doncic</a>, Maxi Kleber, and Markieff Morris 
+                in a massive trade deadline deal.
+            </div>
+        </div>
+
+        <div class="column" id="column2">
+            <h2>Jazz Involvement</h2>
+            <div>
+                As part of the deal, the Utah Jazz will receive Jalen Hood-Schifino, the LA Clippers' 2025 second-round pick from the Lakers, 
+                and a 2025 second-round pick from the Mavs. League sources have since confirmed this trade involving Doncic and Davis to ClutchPoints.
+            </div>
+        </div>
+
+        <div class="column" id="column3">
+            <h2>Doncic's Future</h2>
+            <div>
+                Doncic, who has not played <a href="https://clutchpoints.com/mavericks-news-luka-doncic-injury-timeline-gets-promising-update" target="_blank">
+                since Christmas Day due to a calf injury</a>, is one of the young faces of the NBA. He is an international superstar at 25 years old who will now 
+                be given the torch to carry the Lakers franchise when James is ready to retire.
+            </div>
+        </div>
+    </div>
+
+    
+    <h2>References:</h2>
+    <div class="References" id="References">
+        <div><a href="https://x.com/ShamsCharania/status/1885919297832169918" target="_blank">Shams Charania Tweet</a></div>
+        <div><a href="https://www.mavs.com/ad-adds-defense/" target="_blank">Mavericks Official Website</a></div>
+        <div><a href="https://clutchpoints.com/nba/players/b74d0a0c/luka-doncic" target="_blank">Luka Doncic Stats</a></div>
+        <div><a href="https://clutchpoints.com/lakers-news-shams-charania-warns-la-ignoring-anthony-davis-trade-deadline-demands" target="_blank">Lakers Trade Rumors</a></div>
+    </div>
+</body>
+</html>

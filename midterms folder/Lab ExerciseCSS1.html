@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExerciseCSS1.html</title>
+    <style>
+        body {
+            background-color: beige;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            text-decoration: underline;
+            font-weight: bold;
+            color: darkblue;
+            font-size: 24px;
+        }
+        pre {
+            font-size: 18px;
+            line-height: 1.6;
+            width: 85%;
+            margin: auto;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            text-decoration: underline;
+            color: rgba(1, 77, 7, 0.623);
+        }
+        .small {
+            color: red;
+            font-size: 16px;
+        }
+        .sup {
+            color: blue;
+        }
+        hr {
+            height: 6px;
+            background-color: black;
+            border: none;
+        }
+        .footer {
+            font-family: 'Times New Roman', Times, serif;
+            color: darkorange;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sample Polynomial Expressions:</h2>
+    <pre>
+        <div class="header">
+            <span>Name</span>
+            <span>Example</span>
+            <span>Note</span>
+        </div>
+ Monomial                                                                    (3x<sup class="sup">2</sup>y<sup class="sup">3</sup>) ÷ 1                                                                  Q<sub class="small">1</sub>: One term (mono)
+                                     
+ Binomial                                                                    2xy + 1/2y<sup class="sup">2</sup>                                                                  Q<sub class="small">2</sub>: Two terms (bi)                                                          
+                                
+ Trinomial                                                                   x<sup class="sup">3</sup>y<sup class="sup">4</sup> + 2x<sup class="sup">3</sup> + xy<sup class="sup">2</sup>                                                             Q<sub class="small">3</sub>: Three terms (tri)
+                              
+ Polynomial                                                                 6x<sup class="sup">4</sup>y + 5x<sup class="sup">3</sup>y<sup class="sup">2</sup> + 4x<sup>2</sup>y<sup class="sup">3</sup> + xy<sup class="sup">4</sup> + 7y<sup class="sup">5</sup>                                              Q<sub class="small">4</sub>: Many terms (poly)
+    </pre>
+
+    <hr>
+    <h2 class="footer">&copy; College Algebra Fundamentals</h2>
+   
+</body>
+</html>
